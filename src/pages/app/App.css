@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  overflow: hidden;
 }
 
 .App-logo {
@@ -20,4 +19,9 @@
 
 .App-link {
   color: #09d3ac;
+}
+#cards
+{
+  display: flex;
+  flex-wrap: wrap;
 }

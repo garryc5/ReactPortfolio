@@ -30,7 +30,8 @@
     position: absolute;
     z-index: 9;
     left: 50vw;
-    color: white;
+    color: #ffffff;
+    font-size: 5vmin;
 }
 .r2
 {
@@ -39,5 +40,6 @@
     width: 50vw;    
     position: absolute;
     z-index: 9;
+    font-size: 8vmin;
 }
 

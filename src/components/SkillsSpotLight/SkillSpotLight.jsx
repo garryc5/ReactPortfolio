@@ -13,7 +13,7 @@ class SkillsSpotLight extends React.Component {
   cosval = (x) => {
     var y = Math.cos(x * Math.PI);
     y++;
-    y *= 40;
+    y *= 34.5;
     return y;
   }
    topDomManipulation = ()=> 
@@ -23,7 +23,7 @@ class SkillsSpotLight extends React.Component {
       b : this.cosval(this.state.x + 1),
       x : this.state.x + 0.01
     })
-    document.getElementById("spotlight").style.left = `${this.state.w - 1}vw`;
+    document.getElementById("spotlight").style.left = `${this.state.w +4}vw`;
     document.getElementById("spotlight").style.borderRadius = `${this.state.w / 3 + 20}% ${this.state.b / 3 + 20}% ${this.state.b / 3 + 20}% ${this.state.w / 3 + 20}%`;
     }
     
