@@ -1,0 +1,43 @@
+.all
+{
+    height: 50vw;
+    width: 100vw;    
+    position: absolute;
+    z-index: 10;
+    top: 0
+}
+.d1
+{
+    background-color: red;
+    height: 50vw;
+    width: 50vw;    
+    position: absolute;
+    z-index: 10;
+}
+.d2
+{
+    background-color: blue;
+    height: 50vw;
+    width: 50vw;    
+    position: absolute;
+    z-index: 10;
+    left: 50vw;
+}
+.r1
+{
+    height: 50vw;
+    width: 50vw;    
+    position: absolute;
+    z-index: 9;
+    left: 50vw;
+    color: white;
+}
+.r2
+{
+    color: white;
+    height: 50vw;
+    width: 50vw;    
+    position: absolute;
+    z-index: 9;
+}
+
