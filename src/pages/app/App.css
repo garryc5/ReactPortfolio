@@ -6,3 +6,11 @@
   display: flex;
   flex-wrap: wrap;
 }
+Footer
+{
+  box-shadow: -1px -5px 5px #4BFFA5;
+  margin-top: 3vh;
+  background-color: #080e25;
+  color: #4BFFA5;
+  padding: .3vmin;
+}

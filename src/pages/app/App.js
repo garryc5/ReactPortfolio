@@ -6,6 +6,7 @@ import SkillsSpotLight from '../../components/SkillsSpotLight/SkillSpotLight'
 import NavBar from '../../components/NavBar/NavBar'
 import PageSplit from '../../components/PageSplit/PageSplit'
 import AboutMe from '../../components/AboutMe/AboutMe'
+import CustomFooter from '../../components/footer/footer'
 import Photography from '../photography/photography'
 import Code from '../code/Code'
 import Home from '../home/Home'
@@ -37,6 +38,7 @@ function App() {
         </>
         }/>
         </Switch>
+        <CustomFooter />
         </div>
   );
 }

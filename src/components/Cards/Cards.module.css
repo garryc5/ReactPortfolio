@@ -1,17 +1,14 @@
-.iframe
-{
-    width:100%;
-    height:70%; 
-    border-radius: 4px; 
-    overflow:hidden;
-}
 .card
 {
     background-color: #080e25;
     margin: 3vmin auto;
     padding: 3vmin;
     width: 450px;
-    height: 1000px;
+    height: auto;
     box-shadow: 1px 3px 5px #4BFFA5;
     color: #4BFFA5;
+}
+img
+{
+    width: 90%;
 }
