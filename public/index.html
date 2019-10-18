@@ -13,9 +13,14 @@
   <script>
   window.addEventListener('scroll',(e)=>
   {
-    document.getElementById('leftReplace').style.display = window.scrollY > 400 ? 'none' : 'inline';
-    document.getElementById('rightReplace').style.display = window.scrollY > 400 ? 'none' : 'inline';
+    document.getElementById('flash').style.display = window.scrollY > 70 ? 'none' : 'inline';
+    document.getElementById('leftReplace').style.display = window.scrollY > 290 ? 'none' : 'inline';
+    document.getElementById('rightReplace').style.display = window.scrollY > 290 ? 'none' : 'inline';
     document.getElementById('left').style.left = `${(0 - (window.scrollY/10))}vw`;
+    document.getElementById('flash').style.left = `${(24 - (window.scrollY/1.2))}vw`;
+    document.getElementById('flash').style.top = `${(17 - (window.scrollY/1.2))}vw`;
+    document.getElementById('flash').style.height = `${(window.scrollY)*2}vw`;
+    document.getElementById('flash').style.width = `${(window.scrollY)*2}vw`;
     document.getElementById('right').style.left = `${(50 + (window.scrollY/10))}vw`;
     document.getElementById('leftReplace').style.left = `${(63 - (window.scrollY/7.5))}vw`;
     document.getElementById('rightReplace').style.left = `${(2 + (window.scrollY/7.5))}vw`;
