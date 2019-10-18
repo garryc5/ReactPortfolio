@@ -1,11 +1,12 @@
 
-* {
+body {
   margin: 0;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #C6C4C5;
+  }
+*{
   touch-action: manipulation;
 }
-
 
