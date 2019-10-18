@@ -1,15 +1,13 @@
 .all
 {
-    height: 50vw;
     width: 100vw;    
     position: absolute;
-    z-index: 10;
     top: 0
 }
 .d1
 {
     background-color: red;
-    height: 50vw;
+    height: 70vh;
     width: 50vw;    
     position: absolute;
     z-index: 10;
@@ -17,29 +15,28 @@
 .d2
 {
     background-color: blue;
-    height: 50vw;
+    height: 70vh;
     width: 50vw;    
     position: absolute;
     z-index: 10;
     left: 50vw;
 }
 .r1
-{
-    height: 50vw;
-    width: 50vw;    
+{  
     position: absolute;
     z-index: 9;
     left: 50vw;
-    color: #ffffff;
+    color: rgb(0, 0, 0);
     font-size: 5vmin;
+    text-shadow: 5px 1px 5px #4BFFA5;
 }
 .r2
 {
-    color: white;
-    height: 50vw;
-    width: 50vw;    
+    color: black;
     position: absolute;
     z-index: 9;
     font-size: 8vmin;
+    text-shadow: 5px 1px 5px #4BFFA5;
+    white-space: pre;
 }
 

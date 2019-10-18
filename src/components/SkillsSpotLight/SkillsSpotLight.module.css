@@ -7,7 +7,7 @@
   .spotlight {
     height: 14vh;
     width: 20vw;
-    background-color: black;
+    background-color: #080e25;
     border-radius: 10% 40%;
     position: relative;
     z-index: -1;
@@ -19,16 +19,16 @@
     align-items: center;
     width: 90vw;
     height: 10vh;
-    padding: 3vh;
-  
-    color: white;
+    padding: 3vh; 
+    color: #C6C4C5;
   }
   .title {
     text-align: center;
+    color: #080e25;
   }
   .skills {
     font-size: 3.5vmin;
-    text-shadow: 1px 5px 4px white;
+    text-shadow: 1px 5px 4px #C6C4C5;
     text-align: center;
   }
   

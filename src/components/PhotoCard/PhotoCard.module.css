@@ -1,0 +1,9 @@
+.img
+{
+    box-shadow: 1px 3px 5px black;
+    max-width: 500px;
+    max-height: 500px;
+    transition: all 2s ease;    
+    padding: .5vmin;
+    margin: .5vmin;
+}

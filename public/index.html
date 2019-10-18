@@ -13,12 +13,14 @@
   <script>
   window.addEventListener('scroll',(e)=>
   {
+    document.getElementById('leftReplace').style.display = window.scrollY > 400 ? 'none' : 'inline';
+    document.getElementById('rightReplace').style.display = window.scrollY > 400 ? 'none' : 'inline';
     document.getElementById('left').style.left = `${(0 - (window.scrollY/10))}vw`;
     document.getElementById('right').style.left = `${(50 + (window.scrollY/10))}vw`;
-    document.getElementById('leftReplace').style.left = `${(50 - (window.scrollY/7))}vw`;
-    document.getElementById('rightReplace').style.left = `${(0 + (window.scrollY/7))}vw`;
+    document.getElementById('leftReplace').style.left = `${(63 - (window.scrollY/7.5))}vw`;
+    document.getElementById('rightReplace').style.left = `${(2 + (window.scrollY/7.5))}vw`;
     document.getElementById('leftReplace').style.top = `${window.scrollY+125}px`;
-    document.getElementById('rightReplace').style.top = `${window.scrollY+145}px`;
+    document.getElementById('rightReplace').style.top = `${window.scrollY+155}px`;
   })
   </script>
 </html>

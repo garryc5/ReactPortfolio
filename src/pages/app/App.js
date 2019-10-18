@@ -1,36 +1,42 @@
 import React from 'react';
-import logo from '../../logo.svg';
+import './App.css';
+import { Route, Switch } from 'react-router-dom';
+
 import SkillsSpotLight from '../../components/SkillsSpotLight/SkillSpotLight'
 import NavBar from '../../components/NavBar/NavBar'
 import PageSplit from '../../components/PageSplit/PageSplit'
-import CodeSandBoxCard from '../../components/CodesandboxCard/CodeSandBoxCard'
-import './App.css';
+import AboutMe from '../../components/AboutMe/AboutMe'
+import Photography from '../photography/photography'
+import Code from '../code/Code'
+import Home from '../home/Home'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <NavBar />
+        <AboutMe/>
       </header>
         <PageSplit />
         <SkillsSpotLight />
-        <div id ="cards">
-        <CodeSandBoxCard
-        iframe="https://codesandbox.io/embed/cos-is-cool-lsfo7?fontsize=14"
-        />
-        <CodeSandBoxCard
-        iframe="https://codesandbox.io/embed/happy-b-day-fcsfy?fontsize=14"
-        />
-        <CodeSandBoxCard
-        iframe ="https://codesandbox.io/embed/pie-6fwd7?fontsize=14" 
-        />
-        <CodeSandBoxCard
-        iframe ="https://codesandbox.io/embed/tetris-js-cir2l?fontsize=14"
-        />
-        <CodeSandBoxCard
-        iframe ="https://codesandbox.io/embed/festive-minsky-hvm5f?fontsize=14"
-        />
-        </div>
+        <Switch>
+        <Route exact path='/' render={() =>    
+        <>
+        <NavBar />
+        <Home id="cards" />
+        </>
+        }/>
+        <Route exact path='/photos' render={() =>    
+        <>
+        <NavBar />
+        <Photography id="cards" />
+        </>
+        }/>
+        <Route exact path='/code' render={() =>
+        <>
+        <NavBar />
+        <Code />
+        </>
+        }/>
+        </Switch>
         </div>
   );
 }
