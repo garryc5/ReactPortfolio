@@ -55,3 +55,13 @@
     white-space: pre;
 }
 
+@media (max-width: 500px){
+    .d1
+    {
+        height: 50vh;
+    }
+    .d2
+    {
+        height: 50vh;
+    }
+}

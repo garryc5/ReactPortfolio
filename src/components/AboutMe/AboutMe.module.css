@@ -26,3 +26,8 @@
 {
     color: rgb(120, 252, 186);
 }
+@media (max-width: 500px){
+.intro{     
+     margin: 40vh 5vw 0vh 5vw;
+}
+}
