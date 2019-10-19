@@ -38,20 +38,16 @@ class SkillsSpotLight extends React.Component {
     }
     handleTouchStart = e => {
       clearInterval(this.state.timer);
-      document.getElementById("spotlight").style.left = `${e.clientX}px`;
+      document.getElementById("spotlight").style.left = `${e.touches[0].clientX}px`;
     }
 
-    handleTouchEnd = e =>
-    {
-      this.setState({timer: setInterval(this.topDomManipulation, 15)      })
-    }
 
 
 render() {
     return  (
   <div className={styles.all}>
     <h2 className={styles.title}>Skills:</h2>
-    <div id="text"className={styles.text} onMouseMove={this.handleMouseOver} onMouseOut = {this.handleMouseOut} onTouchStart ={this.handleTouchStart} onTouchEnd={this.handleTouchEnd}>
+    <div id="text"className={styles.text} onMouseMove={this.handleMouseOver} onMouseOut = {this.handleMouseOut} onTouchMove ={this.handleTouchStart} onTouchEnd={this.handleMouseOut}>
       <h1 className={styles.skills}>Node<br />Express</h1>
       <h1 className={styles.skills}>React<br />React Native</h1>
       <h1 className={styles.skills}>MongoDB<br />SQL</h1>

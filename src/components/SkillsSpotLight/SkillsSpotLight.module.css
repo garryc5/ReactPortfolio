@@ -31,4 +31,8 @@
     text-shadow: 1px 5px 4px #C6C4C5;
     text-align: center;
   }
-  
+  @media (max-width: 500px){
+    .skills{     
+         font-size: 3vmin;
+    }
+    }
