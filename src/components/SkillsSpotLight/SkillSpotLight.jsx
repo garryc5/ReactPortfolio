@@ -9,7 +9,7 @@ class SkillsSpotLight extends React.Component {
     timer:''
   }
   componentDidMount(){
-  this.setState({timer : setInterval(this.topDomManipulation, 15)})}
+  this.setState({timer : setInterval(this.topDomManipulation, 25)})}
   cosval = (x) => {
     var y = Math.cos(x * Math.PI);
     y++;
@@ -34,7 +34,7 @@ class SkillsSpotLight extends React.Component {
 
     handleMouseOut = e =>
     {
-      this.setState({timer: setInterval(this.topDomManipulation, 15)      })
+      this.setState({timer: setInterval(this.topDomManipulation, 25)      })
     }
     handleTouchStart = e => {
       clearInterval(this.state.timer);

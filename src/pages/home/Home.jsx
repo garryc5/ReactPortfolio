@@ -7,7 +7,7 @@ class Home extends React.Component {
 
   render() {
     return  (
-        <div className={styles.home}>
+        <div id="cards"className={styles.home}>
 <iframe className={styles.linkedin} src="https://www.linkedin.com/embed/feed/update/urn:li:share:6569010664558383104" height="669" width="504"   title="Embedded post"></iframe>
 <iframe className={styles.linkedin} src="https://www.linkedin.com/embed/feed/update/urn:li:share:6588178652641452032" height="465" width="504"   title="Embedded post"></iframe>
         <CodeSandBoxCard

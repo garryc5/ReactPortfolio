@@ -5,6 +5,7 @@
 .linkedin
 {
     box-shadow: 1px 3px 5px #4BFFA5;
-    margin: 3vmin;
+    margin: 3vmin auto;
     width: 90vw;
+    max-width: 500px;
 }

@@ -6,6 +6,7 @@
     height: 40vh;
     width: auto;
     transition: all 2s ease;    
-    padding: .4vmin;
-    margin: .4vmin;
+    padding: 1.3vmin;
+    margin: .8vmin;
+    background-color: whitesmoke;
 }
