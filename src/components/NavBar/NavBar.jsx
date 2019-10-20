@@ -9,7 +9,7 @@ class NavBar extends React.Component {
         <nav className={styles.all}>
             <Link to='/code' className={styles.Links}>Code</Link>
         <p className={styles.name}>
-            GarrettCarver
+            Garrett  Carver
             <br/>
             Software Devloper
             <br/>
