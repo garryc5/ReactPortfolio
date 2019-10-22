@@ -27,8 +27,8 @@ class SkillsSpotLight extends React.Component {
     document.getElementById("spotlight").style.borderRadius = `${this.state.w / 3 + 20}% ${this.state.b / 3 + 20}% ${this.state.b / 3 + 20}% ${this.state.w / 3 + 20}%`;
     }
     
-    handleMouseOver = e => {
-      clearInterval(this.state.timer);
+    handleMouseOver = async e => {
+      await clearInterval(this.state.timer);
       document.getElementById("spotlight").style.left = `${e.clientX}px`;
     }
 
@@ -36,8 +36,8 @@ class SkillsSpotLight extends React.Component {
     {
       this.setState({timer: setInterval(this.topDomManipulation, 25)      })
     }
-    handleTouchStart = e => {
-      clearInterval(this.state.timer);
+    handleTouchStart = async e => {
+      await clearInterval(this.state.timer);
       document.getElementById("spotlight").style.left = `${e.touches[0].clientX}px`;
     }
 
