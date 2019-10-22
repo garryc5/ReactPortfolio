@@ -40,9 +40,9 @@
 {  
     position: absolute;
     z-index: 9;
-    left: 50vw;
+    left: 100vw;
     color: rgb(0, 0, 0);
-    font-size: 5vmin;
+    font-size: 3.5vmin;
     text-shadow: 5px 1px 5px #4BFFA5;
 }
 .r2
@@ -50,7 +50,7 @@
     color: black;
     position: absolute;
     z-index: 9;
-    font-size: 8vmin;
+    font-size: 5vmin;
     text-shadow: 5px 1px 5px #4BFFA5;
     white-space: pre;
 }

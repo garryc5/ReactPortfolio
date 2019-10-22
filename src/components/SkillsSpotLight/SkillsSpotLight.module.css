@@ -30,6 +30,7 @@
     font-size: 3.5vmin;
     text-shadow: 1px 5px 4px #C6C4C5;
     text-align: center;
+    font-family: 'Cinzel', serif;
   }
   @media (max-width: 500px){
     .skills{     

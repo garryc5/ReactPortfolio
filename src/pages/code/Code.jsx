@@ -11,7 +11,7 @@ class Code extends React.Component {
        
        
         <CodeSandBoxCard
-        title={<h3>Survey App
+        title={<h3 id="title">Survey App
             <br/>
             <a target="blank" href="https://surveyapiandcharts.herokuapp.com/">full version</a>
         </h3>}
@@ -27,28 +27,28 @@ class Code extends React.Component {
             </p>}
         iframe ="https://codesandbox.io/embed/pie-6fwd7?fontsize=14" 
         />
-        <CodeSandBoxCard
+        <CodeSandBoxCard 
                 title=
-                {<h3>
+                {<h3 id = "tetris">
                     Tetris
                     <br/>
                     <a target="blank" href="https://garryc5.github.io/TetrisGame/">full version</a>
                 </h3>}
                 summery=
-                {<p>
+                {<p id = "tetris">
                     My take on the classic game of Tetris. Made with out canvas, just JavaScript. 
                     This game is designed to have a unmanagable drop speed after 14 lines.
                     I hope you enjoy! 
                     <ul>
-                    <li>Developed a reactive mobile friendly Tetris game to provide users a great experience.</li>
-                    <li>Created collision logic and dynamic controls using JavaScript, CSS, and HTML.</li>
+                    <li id = "tetris">Developed a reactive mobile friendly Tetris game to provide users a great experience.</li>
+                    <li id = "tetris">Created collision logic and dynamic controls using JavaScript, CSS, and HTML.</li>
                     </ul>
                 </p>}
         iframe ="https://codesandbox.io/embed/tetris-js-cir2l?fontsize=14"
         />
         <Card 
          title=
-         {<h3>
+         {<h3 id="title">
              Milo
              <br/>
              <a target="blank" href="https://milo-app-fitness.herokuapp.com/">full version</a>
@@ -67,14 +67,14 @@ class Code extends React.Component {
 />
 <Card 
          title=
-         {<h3>
+         {<h3 id="title">
              Bargain-action-down 
              <br/>
              <a target="blank" href="https://bargain-action-down.herokuapp.com">full version</a>
          </h3>}
          summery=
          {<p>
-            Bargain Action Down is a task tracker for your spending activities, that encourages you to spend less to score more. Once you have a task in mind you can bargain that down and render your new activity, scoring points based on potential money saved. Points are recorded as tasks are completed and your savings are converted quantities of things you could do with your savings A paragraph used to introduce interested parties to the project and needs to include one or more screenshots.
+            Bargain Action Down is a task tracker for your spending activities, that encourages you to spend less to score more. Once you have a task in mind you can bargain that down and render your new activity, scoring points based on potential money saved. Points are recorded as tasks are completed and your savings are converted to quantities of things you could do with your savings!
              Check out the code <a target="blank" href="https://github.com/ConnerMcCabe/Bargain-Action-Down">here</a>
              <ul>
                 <li> Build a MERN(mongo express react node) stack app. </li>
@@ -85,7 +85,7 @@ class Code extends React.Component {
 />
 <Card 
          title=
-         {<h3>
+         {<h3 id="title">
              HackBaltimore
             </h3>}
          summery=
@@ -102,7 +102,7 @@ class Code extends React.Component {
 />
 <Card 
          title=
-         {<h3>
+         {<h3 id="title">
              BearBonesDB
             </h3>}
          summery=
@@ -121,7 +121,7 @@ Check out the code <a target="blank" href="https://github.com/garryc5/BearBonesD
 
         <CodeSandBoxCard
           title=
-          {<h3>
+          {<h3 id="title">
               MORE CODE!
              </h3>}
           summery=

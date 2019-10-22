@@ -7,12 +7,14 @@
 }
 .card
 {
-    background-color: #080e25;
+    background-color: #4BFFA5;
     margin: 3vmin auto;
     padding: 3vmin;
     max-width: 500px;
     width: 90vw;
     height: auto;
-    box-shadow: 1px 3px 5px #4BFFA5;
-    color: #4BFFA5;
+    box-shadow: 1px 3px 5px #080e25;
+    color: #080e25;
+    font-weight: bold;
+    font-family: 'Bangers', cursive;
 }

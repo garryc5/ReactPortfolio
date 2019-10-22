@@ -13,4 +13,21 @@ Footer
   background-color: #080e25;
   color: #4BFFA5;
   padding: .3vmin;
+  font-family: 'Cinzel', serif;
+}
+#title
+{
+    font-family: 'Cinzel', serif;
+    font-size: 3vh;
+}
+#tetris
+{
+  font-family: 'Press Start 2P', cursive;
+  font-size: medium;
+  line-height: 1.5;
+
+}
+a
+{
+  color: rgb(26, 26, 26);
 }
