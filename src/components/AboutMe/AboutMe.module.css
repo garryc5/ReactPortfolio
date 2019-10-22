@@ -27,8 +27,8 @@
 {
     color: rgb(26, 26, 26);
 }
-@media (max-width: 500px){
+@media (max-width: 900px){
 .intro{     
-     margin: 60vh 5vw 0vh 5vw;
+     margin: 50vh 5vw 0vh 5vw;
 }
 }

@@ -6,7 +6,12 @@
     height: 40vh;
     width: auto;
     transition: all 2s ease;    
-    padding: 1.3vmin;
+    border: 1.3vmin solid white;
+    padding: 1px;
     margin: .8vmin;
-    background-color: whitesmoke;
+    background-color: black;
+}
+.imgWrapper
+{
+    border: 3px solid black;
 }

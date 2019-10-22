@@ -55,7 +55,7 @@
     white-space: pre;
 }
 
-@media (max-width: 500px){
+@media (max-width: 900px){
     .d1
     {
         height: 50vh;

@@ -22,10 +22,17 @@
     document.getElementById('flash').style.height = `${(window.scrollY)*2}vw`;
     document.getElementById('flash').style.width = `${(window.scrollY)*2}vw`;
     document.getElementById('right').style.left = `${(50 + (window.scrollY/10))}vw`;
-    document.getElementById('leftReplace').style.left = `${(63 - (window.scrollY/7.5))}vw`;
-    document.getElementById('rightReplace').style.left = `${(2 + (window.scrollY/7.5))}vw`;
+    window.innerWidth > 900 ?
+    document.getElementById('leftReplace').style.left = `${(63 - (window.scrollY/7.5))}vw`
+    :
+    document.getElementById('leftReplace').style.left = `${(55 - (window.scrollY/7.5))}vw`
+    window.innerWidth > 900 ?
+    document.getElementById('rightReplace').style.left = `${(2 + (window.scrollY/7.5))}vw`
+    :
+    document.getElementById('rightReplace').style.left = `${(15 + (window.scrollY/7.5))}vw`;
     document.getElementById('leftReplace').style.top = `${window.scrollY+125}px`;
     document.getElementById('rightReplace').style.top = `${window.scrollY+155}px`;
+  
   })
   </script>
 </html>
