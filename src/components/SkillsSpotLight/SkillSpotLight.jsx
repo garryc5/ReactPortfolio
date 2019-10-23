@@ -38,7 +38,7 @@ class SkillsSpotLight extends React.Component {
     }
     handleTouchStart = async e => {
       await clearInterval(this.state.timer);
-      document.getElementById("spotlight").style.left = `${e.touches[0].clientX}px`;
+      await document.getElementById("spotlight").style.left = `${e.touches[0].clientX}px`;
     }
 
 
