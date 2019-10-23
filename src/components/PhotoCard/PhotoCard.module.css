@@ -8,7 +8,7 @@
     transition: all 2s ease;    
     border: 1.3vmin solid white;
     padding: 1px;
-    margin: .8vmin;
+    margin: .8vmin auto;
     background-color: black;
 }
 .imgWrapper
